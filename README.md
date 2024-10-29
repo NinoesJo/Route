@@ -4,8 +4,6 @@ This is the directions document for Project 7 Route in CompSci 201 at Duke Unive
 
 See the [details document](docs/details.md) for information on using Git, starting the project, and more details about the project including information about the classes and concepts that are outlined briefly below. You'll absolutely need to read the information in the details document to understand how the classes in this project work independently and together. The details document also contains project-specific details. This current document provides a high-level overview of the assignment.
 
-You are STRONGLY encouraged to work with a partner on this final project! See the [details document](docs/details.md) for information on using Git with a partner and how the workflow can proceed. 
-
 ### Background
 
 This project was initially developed by Brandon Fain and the UTA/TA team in 201, with some ephemeral
@@ -19,13 +17,12 @@ connection to the Bear Maps project from UC Berkeley's 61B course.
     - [Graph Data](#graph-data)
 - [Part 1: Implementing `GraphProcessor`](#part-1-implementing-graphprocessor)
 - [Part 2: Creating `GraphDemo`](#part-2-creating-graphdemo)
-- [Submitting and Grading](#submitting-and-grading)
 
 ## Project Introduction
 
 In this project you are asked to implement a routing service that represents the United States highway network as a graph and calculates routes and distances on this network. At a high level, in part 1 you will implement `GraphProcessor` which stores a graph representation and provides public methods to answer connectivity, distance, and pathfinding queries. This part of the project will be autograded as per usual. 
 
-In part 2 you will implement a `main` method in `GraphDemo` that produces a minimal viable product (sometimes known in industry as an _MVP_) demonstrating the functionality of `GraphProcessor` and visualizing the results. You could, for example, include a video of your demo as part of submitting something for [P8 Create](https://docs.google.com/document/d/1VEJzUNFPdutbD-zIscUmEf8y0Ie4dLU_e8FNm0c7nWA/edit?usp=sharing).
+In part 2 you will implement a `main` method in `GraphDemo` that produces a minimal viable product (sometimes known in industry as an _MVP_) demonstrating the functionality of `GraphProcessor` and visualizing the results.
 
 To complete Part 1, you'll need to understand the classes you're given and the code you're asked to write. The classes you're given include `Point` and `Visualize` (which uses the `StdDraw` class you used in *P1 NBody*), and some JUnit testing classes. Details can be found in [details document](docs/details.md) with a high-level overview here.
 
@@ -92,14 +89,6 @@ See the [details document](docs/details.md) for information on implementing Dijk
 
 ## Part 2: Creating `GraphDemo`
 
-The starter code for `GraphDemo.java` includes a `main` method. Feel free to organize `GraphDemo` however you see fit - it will not be autograded. *Running your `GraphDemo` `main` method should produce a demonstration of the functionality of your project on the USA highway network* -- it *already does that minimally*, you're welcome to modify the code. See the  [details document](docs/details.md) for information. You do *NOT* need to make changes for the purposes of grades.
+The starter code for `GraphDemo.java` includes a `main` method. Feel free to organize `GraphDemo` however you see fit - it will not be autograded. *Running your `GraphDemo` `main` method should produce a demonstration of the functionality of your project on the USA highway network* -- it *already does that minimally*, you're welcome to modify the code. See the  [details document](docs/details.md) for information.
 
-
-## Submitting and Grading
-
-Commit and push your code often as you develop. To submit:
-
-1. Submit your code on gradescope to the autograder. If you worked with a partner, you and your partner will make a **single submission together on gradescope**. Refer to [this document](https://docs.google.com/document/d/e/2PACX-1vREK5ajnfEAk3FKjkoKR1wFtVAAEN3hGYwNipZbcbBCnWodkY2UI1lp856fz0ZFbxQ3yLPkotZ0U1U1/pub) for submitting to Gradescope with a partner. 
-
-The first part, `GraphProcessor`, will be autograded for the correctness and efficiency of the code. Most of the points are for correctness, so focus on that first rather than on efficiency, which you'll likely achieve simply by following directions. If you modify `GraphDemo` as suggested in the [details document](docs/details.md) you can be proud of your accomplishment.
 
